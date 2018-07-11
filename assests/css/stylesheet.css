@@ -1,0 +1,15 @@
+body{
+     height: 100%;
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-color: #293d3d;
+     font-family: 'Roboto', sans-serif;
+     margin-top:50px;
+     color: #293d3d;
+}
+
+#jspec{
+  height:300px;
+  width:370px;
+}
