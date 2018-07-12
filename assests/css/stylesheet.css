@@ -3,13 +3,64 @@ body{
      background-size: cover;
      background-repeat: no-repeat;
      background-attachment: fixed;
-     background-color: #293d3d;
+     background-color: #00cca3;
      font-family: 'Roboto', sans-serif;
      margin-top:50px;
      color: #293d3d;
 }
 
-#jspec{
-  height:300px;
-  width:370px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    left: 0;
+    height: 72px;
+    width:550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #00cca3;
+    margin-left: 30px;
+    margin-top:10px;
 }
+
+li {
+    float: left;
+    font-size: 15px;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color:#009933;
+}
+
+.active {
+    color:#009933;
+}
+
+.active:hover {
+    color:#009933;
+}
+
+.info{
+  height:565px;
+  width: 556px;
+  margin-left:30px;
+  margin-top:90px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #00cca3;
+  background-color: white;
+}5
