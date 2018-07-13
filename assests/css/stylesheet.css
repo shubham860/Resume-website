@@ -76,3 +76,16 @@ h4{
     color: #009933;
     font-size:20px;
 }
+
+#panel{
+  height:520px;
+  width: 556px;
+  background-color: white;
+  margin-left:-185px;
+  margin-right:-370px;
+  margin-top:80px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: white;
+
+}
