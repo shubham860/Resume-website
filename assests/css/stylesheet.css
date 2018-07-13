@@ -4,7 +4,7 @@ body{
      background-repeat: no-repeat;
      background-attachment: fixed;
      background-color: #00cca3;
-     font-family: 'Roboto', sans-serif;
+     font-family: 'Montserrat', sans-serif;
      margin-top:50px;
      color: #293d3d;
 }
@@ -68,11 +68,11 @@ li a:hover:not(.active)  {
 h3{
   margin-top:-70px;
   font-size:30px;
-  margin-left:160px;
+  margin-left:140px;
 }
 
 h4{
-    margin-left:205px;
+    margin-left:195px;
     color: #009933;
     font-size:20px;
 }
@@ -87,5 +87,13 @@ h4{
   border-radius: 15px;
   border-style: solid;
   border-color: white;
+}
 
+.panel-inside{
+  margin-top: 90px;
+  margin-left: -140px;
+}
+
+#p{
+  font-size:17px;
 }
