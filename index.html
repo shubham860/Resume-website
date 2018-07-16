@@ -15,6 +15,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="..\Resume-website\assests\css\stylesheet.css">
     <link rel="icon" href="..\Resume-website\assests\images\favicon.png" type="image/gif" sizes="16x16">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -24,21 +25,21 @@
   <body>
      <div class="container"  data-aos="zoom-in-right" data-aos-easing="linear"  data-aos-duration="1500">
        <div class="row">
-         <div class="col-md-6"style="z-index:1;">
-          <ul style="border-style: solid; border-color: #009933;">
-           <li><a class="active" href="#panel"><span class="glyphicon glyphicon-user"></span><span></br/>About</span></a></li>
-           <li><a href="#news"><span class="glyphicon glyphicon-list-alt"></span><br /><span>Resume</span></a></li>
-           <li><a href="#contact"><span class="glyphicon glyphicon-education"></span><br /><span>Certifications</span></a></li>
-          <li><a href="#contact"><span class="glyphicon glyphicon-picture"></span><br /><span>Portfolio</span></a></li>
-          <li ><a href="#about"><span class="glyphicon glyphicon-earphone"></span><br /><span>contact</span></a></li>
-         </ul>
-        <div>
-            <div class="info">
-              <div>
-                <img src="..\Resume-website\assests\images\backs.png" class="img-fluid pull-xs-left" alt="background">
+         <div class="col-md-6" id="panel1" style="z-index:1;">
+           <div class="topnav" id="myTopnav">
+             <div>
+               <ul class="nav nav-pills">
+            <li><a href="#first"  data-toggle="pill" class="active" style="color:#009933;"><span class="glyphicon glyphicon-user"></span><span></br/>About</span></a></li>
+            <li><a href="#second"  data-toggle="pill"><span class="glyphicon glyphicon-list-alt"></span><br /><span>Resume</span></a></li>
+            <li><a href="#third"  data-toggle="pill"><span class="glyphicon glyphicon-education"></span><br /><span>Certifications</span></a></li>
+            <li><a href="#fourth"  data-toggle="pill"><span class="glyphicon glyphicon-picture"></span><br /><span>Portfolio</span></a></li>
+            <li><a href="#fifth" data-toggle="pill"><span class="glyphicon glyphicon-earphone"></span><br /><span>contact</span></a></li>
+             </ul>
+             </div>
               </div>
+              <div class="info">
               <div>
-                <img src="..\Resume-website\assests\images\profile.jpg" class="img-circle" alt="shubham"  style="height:180px;width:180px;margin-left:190px; margin-top:-320px;box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  ">
+                <img src="..\Resume-website\assests\images\back.png" class="img-fluid pull-xs-left" alt="background">
               </div>
               <div>
                 <h3><b>Shubham Chauhan</b></h3>
@@ -46,42 +47,58 @@
               <div>
                 <h4><b>Frontend Developer</b></h4>
               </div>
-              <div style="margin-top:20px">
-                <ul>
-                <li><a href="https://github.com/shubham860"><img src="..\Resume-website\assests\images\github.svg" class="img-fluid pull-xs-left" alt="github"></a></li>
-                <li><a href="https://www.linkedin.com/in/shubham-chauhan-5a1821153/"><img src="..\Resume-website\assests\images\linked.png" class="img-fluid pull-xs-left" alt="Linkedin" style="height:35px;"></a></li>
-                <li><a href="https://www.sololearn.com/Profile/2719435/Ruby"><img src="..\Resume-website\assests\images\sololearn.jpg" class="img-fluid pull-xs-left" alt="sololearn" style="height:35px;"></a></li>
-                <li><a href="https://www.facebook.com/shubham.chauhan.583671"><img src="..\Resume-website\assests\images\facebook.png" class="img-fluid pull-xs-left" alt="facebook" style="height:35px;"></a></li>
-                <li><a href="https://www.instagram.com/_.shubham_chauhan._/"><img src="..\Resume-website\assests\images\Instagram.png" class="img-fluid pull-xs-left" alt="intagram" style="height:35px;"></a></li>
-              </ul>
+              <div>
+                <table class="table" cellspacing="-5">
+                  <tr>
+                  <td><a href="https://github.com/shubham860"><img src="..\Resume-website\assests\images\github.svg" class="img-fluid pull-xs-left" alt="github"></a></td>
+                  <td><a href="https://www.linkedin.com/in/shubham-chauhan-5a1821153/"><img src="..\Resume-website\assests\images\linked.png" class="img-fluid pull-xs-left" alt="Linkedin" style="height:35px;"></a></td>
+                  <td><a href="https://www.sololearn.com/Profile/2719435/Ruby"><img src="..\Resume-website\assests\images\sololearn.jpg" class="img-fluid pull-xs-left" alt="sololearn" style="height:35px;"></a></td>
+                  <td><a href="https://www.facebook.com/shubham.chauhan.583671"><img src="..\Resume-website\assests\images\facebook.png" class="img-fluid pull-xs-left" alt="facebook" style="height:35px;"></a></td>
+                  <td><a href="https://www.instagram.com/_.shubham_chauhan._/"><img src="..\Resume-website\assests\images\Instagram.png" class="img-fluid pull-xs-left" alt="intagram" style="height:35px;"></a></td>
+                  </tr>
+                </table>
+                <hr />
               </div>
             </div>
-        </div>
-      </div>
-      <div class="col-md-6" id="first">
-        <div class="panel-inside">
-          <h3><b><span class="glyphicon glyphicon-user" style="color:#009933;"></span> About</b></h3>
-          
-          <br />
-        </div>
-        <div>
-          <p id="p">
-            I am Shubham Chauhan, Frontend Developer from Uttar pradesh, India.<br />
-            I love to talk with you about our unique.</p>
-                <div id="p">
-                  <strong>DOB . . . . . . .</strong> 28/09/1997
-                  <br / />
-                  <strong>Residence . . . . . . .</strong> Moradabad
-                  <br />
-                  <strong>Freelance . . . . . . .</strong> Available
-                  <br />
-                  <strong>Address . . . . . . .</strong> Uttar pradesh , India
-                </div>
-                <br />
 
-        </div>
-      </div>
          </div>
+       <div class="col-md-6">
+         <div class="tab-content" data-aos="fade-right">
+           <div id="first" class="tab-pane fade in active" >
+             <div class="panel-inside" data-aos="fade-right">
+               <h3><b><span class="glyphicon glyphicon-user" style="color:#009933;"></span> About</b></h3>
+            </div>
+            <hr />
+         <div>
+           <p id="p">
+             I am Shubham Chauhan, Frontend Developer from Uttar pradesh, India.<br />
+             </p>
+                 <div id="p">
+                   <strong>DOB . . . . . . .</strong> 28/09/1997
+                   <br / />
+                   <strong>Residence . . . . . . .</strong> Moradabad
+                   <br />
+                   <strong>Freelance . . . . . . .</strong> Available
+                   <br />
+                   <strong>Address . . . . . . .</strong> Uttar pradesh , India
+                 </div>
+                 <hr />
+         </div>
+           </div>
+       <div id="second" class="tab-pane fade">
+        <h3>Menu 1</h3>
+         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        <div id="third" class="tab-pane fade">
+          <h3>Menu 2</h3>
+           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          </div>
+        <div id="fourth" class="tab-pane fade">
+       <h3>Menu 3</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          </div>
+         </div>
+       </div>
 
       </div>
     </div>
