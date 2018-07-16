@@ -38,7 +38,7 @@ body{
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+/*@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -60,9 +60,9 @@ body{
   }
 }
 
+*/
 
-
-.active:hover {
+#first:hover {
     color:#009933;
 }
 
@@ -76,12 +76,12 @@ body{
   background-color: white;
 }
 
-h3{
+#h3{
   font-size:30px;
    text-align: center;
 }
 
-h4{
+#h4{
     color: #009933;
     font-size:20px;
     text-align: center;
