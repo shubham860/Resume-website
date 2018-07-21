@@ -90,8 +90,8 @@ a:active {color:#009933;}
 }
 
 .responsive {
-    max-width: 100%;
-    height: auto;
+    max-width: 97%;
+    height: 400px;
 }
 
 .panel-inside{
