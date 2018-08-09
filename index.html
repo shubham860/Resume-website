@@ -23,9 +23,13 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
-  <body>
+  <body onload="myFunction()">
 
-     <div class="container"  data-aos="zoom-in-right" data-aos-easing="linear"  data-aos-duration="1500">
+      <div id="loader"></div>
+
+ <div class=" animate-bottom" style="display:none;" id="mainid">
+
+     <div class="container" data-aos="zoom-in-right" data-aos-easing="linear"  data-aos-duration="1500" >
        <div class="row">
 
 
@@ -434,6 +438,8 @@
 
       </div>
     </div>
+
+  </div>
   <script type="text/javascript" src="assests\js\script.js"></script>
 </body>
 </html>
