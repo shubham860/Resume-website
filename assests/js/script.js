@@ -4,7 +4,7 @@ AOS.init();
 var myVar;
 
 function myFunction() {
-    myVar = setTimeout(showPage, 2000);
+    myVar = setTimeout(showPage,6000);
 }
 
 function showPage() {
