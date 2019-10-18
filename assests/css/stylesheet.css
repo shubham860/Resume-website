@@ -1,43 +1,44 @@
 body{
-     height: 100%;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-color: #00cca3;
-     font-family: 'Montserrat', sans-serif;
-     margin-top:50px;
-     color: #293d3d;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgb(0, 204, 163);
+  font-family: 'Montserrat', sans-serif;
+  margin-top:50px;
+  color: rgb(41, 61, 61);
 }
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-style: solid;
-  border-color:  #009933;
+  border-color:  rgb(0, 153, 51);
   border-radius: 15px;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
   border-style: none;
-
 }
 
 .topnav a:hover {
-  color: #009933;
+  color: rgb(0, 153, 51);
 }
 
 .topnav .icon {
   display: none;
 }
 
-a:active {color:#009933;}
+a:active {
+  color: rgb(0, 153, 51);
+}
 
 /*@media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
@@ -64,7 +65,7 @@ a:active {color:#009933;}
 */
 
 #first:hover {
-    color:#009933;
+  color: rgb(0, 153, 51);
 }
 
 .info{
@@ -73,30 +74,29 @@ a:active {color:#009933;}
   margin-top:15px;
   border-radius: 15px;
   border-style: solid;
-  border-color: #009933;
-  background-color: white;
+  border-color: rgb(0, 153, 51);
+  background-color: rgb(255, 255, 255);
 }
 
 #h3{
   font-size:30px;
-   text-align: center;
+  text-align: center;
 }
 
 #h4{
-    color: #009933;
-    font-size:20px;
-    text-align: center;
+  color: rgb(0, 153, 51);
+  font-size:20px;
+  text-align: center;
 }
 
 .responsive {
-    max-width: 97%;
-    height: 240px;
+  max-width: 97%;
+  height: 240px;
 }
 
 .panel-inside{
   margin-top: 20px;
   text-align: center;
-
 }
 
 #p{
@@ -105,11 +105,11 @@ a:active {color:#009933;}
 }
 
 #first,#second,#third,#fourth,#fifth{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height:500px;
   border-radius: 5px;
   border-style: solid;
-  border-color: #009933;
+  border-color: rgb(0, 153, 51);
   margin-top: 120px;
 }
 
@@ -121,42 +121,40 @@ a:active {color:#009933;}
   margin-right: -50px;
 }
 
-
 /* width */
 ::-webkit-scrollbar {
-    width: 8px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
+  box-shadow: inset 0 0 5px rgb(128,128,128);
+  border-radius: 10px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background:  #999999;
-    border-radius: 10px;
+  background:  rgb(153, 153, 153);
+  border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background:  #545454;
+  background:  rgb(84, 84, 84);
 }
-
-
 
 
 /*SAAAA*/
 .flip{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 	font-size: 20px;
-	color: white;
+	color: rgb(255, 255, 255);
 	text-align: center;
 }
 
-p { color: #ffffff;  }
-
+p {
+  color: rgb(255, 255, 255);
+}
 
 .flip3D{
   height: 200px;
@@ -165,15 +163,15 @@ p { color: #ffffff;  }
 
 .flip3D > .front{
   position: absolute;
-    text-align: center;
-    	padding: 20px;
+  text-align: center;
+	padding: 20px;
   -webkit-transform: perspective( 800px ) rotateY(0deg);
   transform:  perspective( 800px ) rotateY(0deg);
   background-color: white;
   height: 200px;
   border-radius: 10px;
-    border : 2px solid #009933;
-    color:  #009933;
+  border : 2px solid rgb(0, 153, 51);
+  color:  rgb(0, 153, 51);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: -webkit-transform .5s linear 0s;
@@ -186,12 +184,12 @@ p { color: #ffffff;  }
   position: absolute;
   -webkit-transform: perspective( 800px ) rotateY(180deg);
   transform:  perspective( 800px ) rotateY(180deg);
-  background-color:  #009933;
+  background-color:  rgb(0, 153, 51);
   height: 200px;
-    text-align: center;
-    	padding: 20px;
+  text-align: center;
+	padding: 20px;
   border-radius: 10px;
-  border : 2px solid #009933;
+  border : 2px solid rgb(0, 153, 51);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transition: -webkit-transform .5s linear 0s;
@@ -213,8 +211,6 @@ p { color: #ffffff;  }
   transform:perspective( 600px ) rotateY(0deg);
 }
 
-
-
 /*loader*/
 .frame {
   position: absolute;
@@ -225,8 +221,8 @@ p { color: #ffffff;  }
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 2px;
-  background: #00cca3;
-  color: #fff;
+  background: rgb(0, 179, 143);
+  color: rgb(255, 255, 255);
 }
 
 .center {
@@ -244,12 +240,12 @@ p { color: #ffffff;  }
   height: 30px;
   top: 95px;
   left: 95px;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
-          animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  animation: jump-jump-1 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-2 {
@@ -259,12 +255,12 @@ p { color: #ffffff;  }
   height: 60px;
   top: 80px;
   left: 80px;
-  background: #00b38f;
+  background: rgb(0, 179, 143);
   border-radius: 50%;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
-          animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  animation: jump-jump-2 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 .dot-3 {
@@ -274,24 +270,24 @@ p { color: #ffffff;  }
   height: 90px;
   top: 65px;
   left: 65px;
-  background: #fff;
+  background: rgb(255, 255, 255);
   border-radius: 50%;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
-          animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
+  animation: jump-jump-3 2s cubic-bezier(0.21, 0.98, 0.6, 0.99) infinite alternate;
 }
 
 @-webkit-keyframes jump-jump-1 {
   0%, 70% {
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 
@@ -299,59 +295,59 @@ p { color: #ffffff;  }
   0%, 70% {
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @-webkit-keyframes jump-jump-2 {
   0%, 40% {
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes jump-jump-2 {
   0%, 40% {
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @-webkit-keyframes jump-jump-3 {
   0%, 10% {
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
 @keyframes jump-jump-3 {
   0%, 10% {
     box-shadow: 2px 2px 3px 2px rgba(0, 0, 0, 0.2);
     -webkit-transform: scale(0);
-            transform: scale(0);
+    transform: scale(0);
   }
   100% {
     box-shadow: 10px 10px 15px 0 rgba(0, 0, 0, 0.3);
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
 }
